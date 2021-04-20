@@ -1,0 +1,5 @@
+Resources:
+  S3Store:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: ${self:provider.environment.S3_BUCKET_NAME}

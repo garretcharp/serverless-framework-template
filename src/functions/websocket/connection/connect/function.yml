@@ -1,0 +1,6 @@
+WebsocketConnectFunction:
+  handler: src/functions/websocket/connection/connect/controller.handler
+  role: WebsocketConnectFunctionRole
+  events:
+    - websocket:
+        route: $connect

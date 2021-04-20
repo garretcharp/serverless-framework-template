@@ -1,0 +1,7 @@
+HttpHelloFunction:
+  handler: src/functions/rest/hello/controller.handler
+  role: HttpHelloFunctionRole
+  events:
+    - httpApi:
+        method: GET
+        path: /hello

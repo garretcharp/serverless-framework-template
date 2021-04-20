@@ -1,0 +1,5 @@
+CronHelloFunction:
+  handler: src/functions/cron/run-hello/controller.handler
+  role: CronHelloFunctionRole
+  events:
+    - schedule: rate(5 minutes)

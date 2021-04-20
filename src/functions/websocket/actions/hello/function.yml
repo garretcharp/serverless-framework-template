@@ -1,0 +1,6 @@
+WebsocketHelloFunction:
+  handler: src/functions/websocket/actions/hello/controller.handler
+  role: WebsocketHelloFunctionRole
+  events:
+    - websocket:
+        route: hello

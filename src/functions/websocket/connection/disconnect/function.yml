@@ -1,0 +1,6 @@
+WebsocketDisconnectFunction:
+  handler: src/functions/websocket/connection/disconnect/controller.handler
+  role: WebsocketDisconnectFunctionRole
+  events:
+    - websocket:
+        route: $disconnect

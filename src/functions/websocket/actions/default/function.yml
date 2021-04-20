@@ -1,0 +1,6 @@
+WebsocketDefaultFunction:
+  handler: src/functions/websocket/actions/default/controller.handler
+  role: WebsocketDefaultFunctionRole
+  events:
+    - websocket:
+        route: $default
